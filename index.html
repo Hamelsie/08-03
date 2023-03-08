@@ -71,7 +71,7 @@ canvas {
 
   /* tăng kích thước chữ */
   .marquee-text {
-    font-size:45px;
+    font-size:42px;
 
   }
 
@@ -82,15 +82,15 @@ canvas {
   
   .marquee {
  direction="left"; /* để nội dung chạy theo chiều ngang */
-    animation: marquee 25s linear infinite; /* 10s là thời gian chạy, linear là để nội dung chạy đều */
+    animation: marquee 30s linear infinite; /* 10s là thời gian chạy, linear là để nội dung chạy đều */
   }
   
   @keyframes marquee {
-    0% {
+    5% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%); /* dịch chuyển nội dung qua trái */
+      transform: translateX(-50%); /* dịch chuyển nội dung qua trái */
     }
   }
 </style>
