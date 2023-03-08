@@ -71,18 +71,18 @@ canvas {
 
   /* tăng kích thước chữ */
   .marquee-text {
-    font-size:50px;
+    font-size:45px;
 
   }
 
   /* hiệu ứng chạy */
   .marquee-container {
-    width: 180%; /* chiều rộng của khung chứa */
+    width: 300%; /* chiều rộng của khung chứa */
   }
   
   .marquee {
  direction="left"; /* để nội dung chạy theo chiều ngang */
-    animation: marquee 20s linear infinite; /* 10s là thời gian chạy, linear là để nội dung chạy đều */
+    animation: marquee 25s linear infinite; /* 10s là thời gian chạy, linear là để nội dung chạy đều */
   }
   
   @keyframes marquee {
@@ -90,7 +90,7 @@ canvas {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-80%); /* dịch chuyển nội dung qua trái */
+      transform: translateX(-100%); /* dịch chuyển nội dung qua trái */
     }
   }
 </style>
